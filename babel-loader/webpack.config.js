@@ -7,7 +7,7 @@
  const ExtractTextPlugin = require('extract-text-webpack-plugin'); //Necesario para extraer texto a otros archivos css
 //Se exporta el modulo
  module.exports={
-     entry: path.resolve(__dirname, 'index.js'), //Archivo de Entrada
+     entry: ['babel-polyfill',path.resolve(__dirname, 'index.js')], //Archivo de Entrada
      output:{
          path: path.resolve(__dirname, 'dist'),//Ruta en donde puedo dejar el archivo compilado
          filename: "bundle_external.js" //Archivo de Salida
@@ -20,7 +20,7 @@
               use: {
                 loader: 'babel-loader',
                 options: {
-                  presets: ['@babel/preset-env'] //Nueva version 
+                  presets: ['@babel/preset-env'],//Nueva version 
                     //presents: ['es2015']
                 }
               }
@@ -37,7 +37,7 @@
      },
      plugins:[ //Aqui van siempre los plugins
        // new ExtractTextPlugin("css/styles.css") //lugar para poner el nuevo archivo eztraido 
-       new ExtractTextPlugin("css/[name].css") 
+       new ExtractTextPlugin("css/[name].css")    
      ]
  }
 
