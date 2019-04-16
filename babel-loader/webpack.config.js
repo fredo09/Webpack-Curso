@@ -8,6 +8,7 @@
 //Se exporta el modulo
  module.exports={
      entry: ['babel-polyfill',path.resolve(__dirname, 'index.js')], //Archivo de Entrada
+
      output:{
          path: path.resolve(__dirname, 'dist'),//Ruta en donde puedo dejar el archivo compilado
          filename: "bundle_external.js" //Archivo de Salida
@@ -24,6 +25,7 @@
                     //presents: ['es2015']
                 }
               }
+
             },
             {
                 test:/\.css$/,
@@ -37,7 +39,8 @@
      },
      plugins:[ //Aqui van siempre los plugins
        // new ExtractTextPlugin("css/styles.css") //lugar para poner el nuevo archivo eztraido 
-       new ExtractTextPlugin("css/[name].css")    
+       new ExtractTextPlugin("css/[name].css") 
+
      ]
  }
 

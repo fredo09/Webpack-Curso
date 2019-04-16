@@ -1,3 +1,4 @@
+
 const {ToDom} = require('./reder-to-dom');
 const { makeMessage } = require('./make-message');
 const espera = new Promise((my_bien ) => {
@@ -12,9 +13,7 @@ module.exports = {
         const message = await espera;
        // const elemento = document.createElement('p');
        // elemento.textContent = message;
-        ToDom((message));  
+        ToDom(makeMessage(message));  
         console.log(message);
     } 
 }
-
-
