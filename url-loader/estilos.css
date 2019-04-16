@@ -1,0 +1,10 @@
+body{
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 40px;
+    background-image: url('./platzi.png');
+}
