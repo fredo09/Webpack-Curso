@@ -14,7 +14,8 @@
     "build:dev": "webpack-dev-server --config ./webpack-dev-server/webpack.config.js",
     "build:babel": "webpack --config ./babel-loader/webpack.config.js",
     "build:images": "webpack --config ./url-loader/webpack.config.js",
-    "build:fonts": "webpack --config ./url-loader-fonts/webpack.config.js"
+    "build:fonts": "webpack --config ./url-loader-fonts/webpack.config.js",
+    "build:video": "webpack --config ./url-loader-video/webpack.config.js"
   },
   "author": "",
   "license": "ISC",
