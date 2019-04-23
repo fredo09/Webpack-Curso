@@ -16,14 +16,19 @@
     "build:images": "webpack --config ./url-loader/webpack.config.js",
     "build:fonts": "webpack --config ./url-loader-fonts/webpack.config.js",
     "build:video": "webpack --config ./url-loader-video/webpack.config.js",
-    "build:json": "webpack --config ./json-loader/webpack.config.js"
+    "build:json": "webpack --config ./json-loader/webpack.config.js",
+    "build:react": "webpack --config ./react/webpack.config.js"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
     "babel-polyfill": "^6.26.0",
     "babel-preset-stage-2": "^6.24.1",
