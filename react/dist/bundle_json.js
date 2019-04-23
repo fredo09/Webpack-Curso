@@ -9978,7 +9978,11 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADw
 /* 342 */
 /***/ (function(module, exports) {
 
+<<<<<<< HEAD
 module.exports = {"profes":[{"id":1,"name":"archoles","escuela":"tec"},{"id":2,"name":"sergio","escuela":"tec"},{"id":3,"name":"freddy","escuela":"tec"},{"id":4,"name":"lich","escuela":"tec"}]}
+=======
+module.exports = {"profes":[{"name":"archoles","escuela":"tec"},{"name":"sergio","escuela":"tec"},{"name":"freddy","escuela":"tec"},{"name":"lich","escuela":"tec"}]}
+>>>>>>> ba14cb9fa2da7d62d2f8f1d103789f97a97c8d71
 
 /***/ }),
 /* 343 */
@@ -34827,8 +34831,11 @@ exports.unstable_unsubscribe = unstable_unsubscribe;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__teacher__ = __webpack_require__(357);
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
+<<<<<<< HEAD
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
+=======
+>>>>>>> ba14cb9fa2da7d62d2f8f1d103789f97a97c8d71
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
@@ -34865,9 +34872,13 @@ function (_React$Component) {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", {
         className: ""
       }, this.props.data.profes.map(function (profeData) {
+<<<<<<< HEAD
         return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__teacher__["a" /* default */], _extends({}, profeData, {
           key: profeData.id
         }));
+=======
+        return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__teacher__["a" /* default */], profeData);
+>>>>>>> ba14cb9fa2da7d62d2f8f1d103789f97a97c8d71
       }));
     }
   }]);
