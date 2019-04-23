@@ -1,0 +1,24 @@
+{
+    "profes": [
+        {
+            "id":1,
+            "name": "archoles",
+            "escuela": "tec"
+        },
+        {
+            "id":2,
+            "name": "sergio",
+            "escuela": "tec"
+        },
+        {
+            "id":3,
+            "name": "freddy",
+            "escuela": "tec"
+        },
+        {
+            "id":4,
+            "name": "lich",
+            "escuela": "tec"
+        }
+    ]
+}
